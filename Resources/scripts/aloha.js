@@ -15,6 +15,13 @@ function loadGif() {
 }
 
 function showGif(data) {
-  image_url = data.data[0].images.fixed_width.url;
+  var gifs = data.data;
+  var numberOfGifs = gifs.length;
+  if (numberOfGifs === 0) {
+    alert('No gifs for you');
+  } else {
+    var randomIndex = Math.floor(Math.random() * numberOfGifs);
+  }
+  image_url = data.data[randomIndex].images.fixed_width.url;
   $('#thegif img').attr('src', image_url);
 }
