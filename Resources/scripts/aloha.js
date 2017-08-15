@@ -2,10 +2,11 @@ $(document).ready(setUp);
 
 function setUp() {
   $('nav span').click(loadGif);
+  $('nav li').click(loadGif);
 }
 
 function loadGif() {
-  var search = $(this).text();
+  var search = $(this).attr('search') || $(this).text();
   $.get('http://api.giphy.com/v1/gifs/search', {
       q: search,
       api_key: 'dc6zaTOxFJmzC'
