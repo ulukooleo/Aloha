@@ -1,7 +1,5 @@
 div#thegif {
   width: 200px;
-  height: 200px;
-  border: 1px solid grey;
   position: fixed;
   left: 300px;
   top: 20px;
