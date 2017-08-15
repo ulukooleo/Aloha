@@ -5,5 +5,16 @@ function setUp() {
 }
 
 function loadGif() {
-  console.log('I should load a gif for ' + $(this).text());
+  var search = $(this).text();
+  $.get('http://api.giphy.com/v1/gifs/search', {
+      q: search,
+      api_key: 'dc6zaTOxFJmzC'
+    },
+    showGif
+ )
+}
+
+function showGif(data) {
+  image_url = data.data[0].images.fixed_width.url;
+  $('#thegif img').attr('src', image_url);
 }
