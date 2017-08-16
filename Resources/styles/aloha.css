@@ -1,6 +1,36 @@
 div#thegif {
+  margin: 30px auto;
   width: 200px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  background-color: cyan;
+  margin: 0;
+  padding: 25px 0 25px 0;
+}
+
+nav {
+  margin: 0;
+  width: 280px;
+  padding: 60px 20px 20px 20px;
+  background-color: #fff6ff;
+}
+
+nav span {
+  font-family: impact;
+  font-size: 140%;
+}
+
+#info {
   position: fixed;
-  left: 300px;
-  top: 20px;
+  left: 320px;
+  top: 0px;
+  background-color: #f2fff3;
+  width: calc(100% - 320px);
 }
