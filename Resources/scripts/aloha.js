@@ -24,15 +24,15 @@ function loadGif() {
 
 //Messi
 var messi = {
-  name: 'Lionel Andrés "Leo" Messi is an Argentine professional footballer who plays as a forward for Spanish
-club FC Barcelona and the Argentina national team. ',
-  bio: '',
+  name: 'Leo Messi',
+  bio: 'Lionel Andrés "Leo" Messi is an Argentine professional footballer who plays as a forward for Spanish
+club FC Barcelona and the Argentina national team.',
   born: new Date(1987, 6, 24),
   birthplace: 'Rosario, Argentina',
   heightInches: 67,
   salary: {amount: 40000000, currency: 'EUR'},
   positions: ['Forward', 'Winger'],
-  teams: [],
+  teams: [FC Barcelona, Argentina],
 }
 
 
@@ -41,15 +41,17 @@ Height: 5′ 7″
 Weight: 148 lbs (67 kg)
 Spouse: Antonella Roccuzzo (m. 2017)
 Salary: 40 million EUR (2016)
-Current teams: FC Barcelona, Argentina
+Current teams: 
 Positions: Forward, Winger
 Shirt Number: #10
 Children: Thiago Messi, Mateo Messi
 Nationality: Argentine
 
 //Cristiano
-Cristiano Ronaldo dos Santos Aveiro GOIH, ComM is a Portuguese professional footballer who plays 
-as a forward for Spanish club Real Madrid and the Portugal national team.
+var Ronaldo = {
+
+name: 'Cristiano Ronaldo dos Santos Aveiro GOIH, ComM is a Portuguese professional footballer who plays 
+as a forward for Spanish club Real Madrid and the Portugal national team.'
 
 Born: February 5, 1985 (age 32), Hospital Dr. Nélio Mendonça, Funchal, Portugal
 Height: 6′ 1″
@@ -60,7 +62,9 @@ Shirt Number: #7
 Children: Cristiano Ronaldo Jr., Eva Maria Dos Santos, Mateo Ronaldo
 Nationality: Portuguese
 Did you know: Cristiano Ronaldo is the fourth-most expensive Association Football transfer 
-(€94 M, from Manchester United to Real Madrid in 2009). 
+(€94 M, from Manchester United to Real Madrid in 2009).
+}
+ 
 
 //Neymar
 Neymar da Silva Santos Júnior, commonly known as Neymar or Neymar Jr., is a Brazilian professional 
